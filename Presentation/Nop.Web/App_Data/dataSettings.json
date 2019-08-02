@@ -1,0 +1,6 @@
+﻿{
+  "DataProvider": "sqlserver",
+  "DataConnectionString": "Data Source=GREGORII\\MSSQL2012IG;Initial Catalog=ncdb420;Integrated Security=True;Persist Security Info=False",
+  "DataConnectionString---disabled 001---": "Data Source=RAZVOJNI\\IGNB2012;Initial Catalog=ncdb420;Integrated Security=True;Persist Security Info=False",
+  "RawDataSettings": {}
+}
