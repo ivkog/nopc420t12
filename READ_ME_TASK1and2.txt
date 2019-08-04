@@ -6,11 +6,16 @@ CHANGE LOG
 - script change - search 2019-08-dd
 - work: analog Product.AllowCustomerReviews, ManufacturerPartNumber
 - id's: github ivkog karnekaj001
+- task 2 - new widget plugin (IWidgetPlugin)
+    - https: //dzone.com/articles/what-are-nopcommerce-widgets-and-how-to-create-one
+    - https: //www.nopcommerce.com/boards/t/48390/new-widget-zone-on-plugin-install.aspx
+    - http: //docs.nopcommerce.com/display/en/Widgets
+    - glej P003
 
 
 ------------
 (future ...)
-(2019-08-02 18:20 note doma)
+(2019-08-04 18:00 note doma)
 - TBD
 - ProductDetailsModel
 - Zgledi:
@@ -28,6 +33,7 @@ CHANGE LOG
 
 -----------
 (PRILOGE)
+----
 P001
 UMIK:
 <div class="panel panel-default margin-bottom" id="group-associated-products">
@@ -115,3 +121,27 @@ UMIK:
     </div>
 }
         </div>
+
+----
+P002
+TASK 1 2:
+https: //www.nopcommerce.com/vacancy-developer-remote.aspx 
+Task #1. You have an online store that sells books. Add a new “Author” property to 
+“Product” entity. A store owner should be able to edit it in admin area. 
+And it should be displayed to customers in public store. 
+
+Task #2. Implement a new widget plugin (IWidgetPlugin). This plugin should display 
+a message on the product details page in public store 
+(e.g. “50% discount in December”). And this message should be 
+editable in admin area on the widget configuration page.
+
+----
+P003
+https: //dzone.com/articles/what-are-nopcommerce-widgets-and-how-to-create-one
+How Widgets Are Different From Plugins in Nopcommerce?
+In nopCommerce, a widget is used to add some kind of functionality or feature 
+(or even display information) that can be rendered on some parts of the public site 
+(also known as widget zones). Whereas, plugins in nopCommerce are used to extend the functionality 
+of nopCommerce. nopCommerce has several types of plugins. Some examples are payment methods 
+(such as PayPal), tax providers, shipping method computation methods 
+(such as UPS, USP, FedEx), widgets (such as 'live chat' block), and many others.
