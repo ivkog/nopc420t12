@@ -1,0 +1,10 @@
+﻿1>------ Clean started: Project: Nop.Plugin.Widgets.Product_Msg, Configuration: Debug Any CPU ------
+2>------ Clean started: Project: Nop.Plugin.Tax.Avalara, Configuration: Debug Any CPU ------
+3>------ Clean started: Project: Nop.Plugin.Misc.SendinBlue, Configuration: Debug Any CPU ------
+4>------ Clean started: Project: Nop.Plugin.Payments.Qualpay, Configuration: Debug Any CPU ------
+5>------ Clean started: Project: Nop.Plugin.Payments.Square, Configuration: Debug Any CPU ------
+6>------ Clean started: Project: Nop.Plugin.DiscountRules.CustomerRoles, Configuration: Debug Any CPU ------
+7>------ Clean started: Project: Nop.Plugin.Tax.FixedOrByCountryStateZip, Configuration: Debug Any CPU ------
+8>------ Clean started: Project: Nop.Plugin.Shipping.FixedByWeightByTotal, Configuration: Debug Any CPU ------
+9>------ Clean started: Project: Nop.Plugin.Pickup.PickupInStore, Configuration: Debug Any CPU ------
+10>------ Clean started: Project: Nop.Plugin.ExchangeRate.EcbExchange, Configuration: Debug Any CPU ------

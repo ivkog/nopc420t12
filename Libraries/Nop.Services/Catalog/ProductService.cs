@@ -505,7 +505,7 @@ namespace Nop.Services.Catalog
         /// <param name="productTagId">Product tag identifier; 0 to load all records</param>
         /// <param name="keywords">Keywords</param>
         /// <param name="searchDescriptions">A value indicating whether to search by a specified "keyword" in product descriptions</param>
-        /// <param name="searchAuthor"> //*** 2019-08-01 </param>
+        /// <param name="searchAuthor"> //*** 2019-08-01-task1 </param>
         /// <param name="searchManufacturerPartNumber">A value indicating whether to search by a specified "keyword" in manufacturer part number</param>
         /// <param name="searchSku">A value indicating whether to search by a specified "keyword" in product SKU</param>
         /// <param name="searchProductTags">A value indicating whether to search by a specified "keyword" in product tags</param>
@@ -536,7 +536,7 @@ namespace Nop.Services.Catalog
             int productTagId = 0,
             string keywords = null,
             bool searchDescriptions = false,
-            //*** 2019-08-01
+            //*** 2019-08-01-task1
             bool searchAuthor = true,
             //***
             bool searchManufacturerPartNumber = true,
@@ -553,7 +553,7 @@ namespace Nop.Services.Catalog
                 storeId, vendorId, warehouseId,
                 productType, visibleIndividuallyOnly, markedAsNewOnly, featuredProducts,
                 priceMin, priceMax, productTagId, keywords, searchDescriptions,
-                //*** 2019-08-01
+                //*** 2019-08-01-task1
                 searchAuthor,
                 //***
                 searchManufacturerPartNumber, searchSku,
@@ -583,7 +583,7 @@ namespace Nop.Services.Catalog
         /// <param name="productTagId">Product tag identifier; 0 to load all records</param>
         /// <param name="keywords">Keywords</param>
         /// <param name="searchDescriptions">A value indicating whether to search by a specified "keyword" in product descriptions</param>
-        /// <param name="searchAuthor"> //*** 2019-08-01 </param>
+        /// <param name="searchAuthor"> //*** 2019-08-01-task1 </param>
         /// <param name="searchManufacturerPartNumber">A value indicating whether to search by a specified "keyword" in manufacturer part number</param>
         /// <param name="searchSku">A value indicating whether to search by a specified "keyword" in product SKU</param>
         /// <param name="searchProductTags">A value indicating whether to search by a specified "keyword" in product tags</param>
@@ -616,7 +616,7 @@ namespace Nop.Services.Catalog
             int productTagId = 0,
             string keywords = null,
             bool searchDescriptions = false,
-            //*** 2019-08-01
+            //*** 2019-08-01-task1
             bool searchAuthor = true,
             //***
             bool searchManufacturerPartNumber = true,
@@ -686,7 +686,7 @@ namespace Nop.Services.Catalog
             var pPriceMax = _dataProvider.GetDecimalParameter("PriceMax", priceMax);
             var pKeywords = _dataProvider.GetStringParameter("Keywords", keywords);
             var pSearchDescriptions = _dataProvider.GetBooleanParameter("SearchDescriptions", searchDescriptions);
-            //*** 2019-08-01
+            //*** 2019-08-01-task1
             var pSearchAuthor = _dataProvider.GetBooleanParameter("SearchAuthor", searchAuthor);
             //***
             var pSearchManufacturerPartNumber = _dataProvider.GetBooleanParameter("SearchManufacturerPartNumber", searchManufacturerPartNumber);
@@ -725,7 +725,7 @@ namespace Nop.Services.Catalog
                 pPriceMax,
                 pKeywords,
                 pSearchDescriptions,
-                //*** 2019-08-01
+                //*** 2019-08-01-task1
                 pSearchAuthor,
                 //***
                 pSearchManufacturerPartNumber,

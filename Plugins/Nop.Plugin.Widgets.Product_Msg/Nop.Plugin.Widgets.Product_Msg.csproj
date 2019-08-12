@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Copyright>Copyright © Nop Solutions, Ltd</Copyright> 
+    <Company>Nop Solutions, Ltd</Company> 
+    <Authors>Nop Solutions, Ltd</Authors>
+    <PackageLicenseUrl></PackageLicenseUrl> 
+    <PackageProjectUrl>http://www.nopcommerce.com/</PackageProjectUrl> 
+    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl> 
+    <RepositoryType>Git</RepositoryType>
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Widgets.Product_Msg</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+    <!--Set this parameter to true to get the dlls copied from the NuGet cache to the output of your project.
+    You need to set this parameter to true if your plugin has a nuget package 
+    to ensure that the dlls copied from the NuGet cache to the output of your project-->
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Content\product_msg\sample-images\**" />
+    <Compile Remove="Content\product_msg\themes\bar\**" />
+    <Compile Remove="Content\product_msg\themes\dark\**" />
+    <Compile Remove="Content\product_msg\themes\default\**" />
+    <Compile Remove="Content\product_msg\themes\light\**" />
+    <EmbeddedResource Remove="Content\product_msg\sample-images\**" />
+    <EmbeddedResource Remove="Content\product_msg\themes\bar\**" />
+    <EmbeddedResource Remove="Content\product_msg\themes\dark\**" />
+    <EmbeddedResource Remove="Content\product_msg\themes\default\**" />
+    <EmbeddedResource Remove="Content\product_msg\themes\light\**" />
+    <None Remove="Content\product_msg\sample-images\**" />
+    <None Remove="Content\product_msg\themes\bar\**" />
+    <None Remove="Content\product_msg\themes\dark\**" />
+    <None Remove="Content\product_msg\themes\default\**" />
+    <None Remove="Content\product_msg\themes\light\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Content\product_msg\license.txt" />
+    <None Remove="Content\product_msg\product-msg.css" />
+    <None Remove="Content\product_msg\README" />
+    <None Remove="Content\product_msg\themes\custom\arrows.png" />
+    <None Remove="Content\product_msg\themes\custom\bullets.png" />
+    <None Remove="Content\product_msg\themes\custom\custom.css" />
+    <None Remove="Content\product_msg\themes\custom\loading.gif" />
+    <None Remove="logo.jpg" />
+    <None Remove="plugin.json" />
+    <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\PublicInfo.cshtml" />
+    <None Remove="Views\_PublicInfo.SliderLine.cshtml" />
+    <None Remove="Views\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Content\product_msg\product-msg.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\product_msg\themes\custom\custom.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Configure.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\PublicInfo.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\_PublicInfo.ProductMsg.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\_ViewImports.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  
+  <!-- This target execute after "Build" target -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <!-- Delete unnecessary libraries from plugins path -->
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  </Target>
+
+</Project>

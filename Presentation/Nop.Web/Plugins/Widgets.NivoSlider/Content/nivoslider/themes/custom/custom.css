@@ -1,9 +1,11 @@
 
 /* GLOBAL */
 
+
 .theme-custom {
-	position: relative;
-	margin: 0 auto 60px;
+  position: relative;
+  margin: 0 auto 60px;
+  font: normal 84px Arial, Helvetica, sans-serif; 
 }
 .theme-custom .nivoSlider {
 	position: relative;

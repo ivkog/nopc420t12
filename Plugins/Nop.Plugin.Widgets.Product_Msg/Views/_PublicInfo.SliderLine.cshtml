@@ -1,0 +1,18 @@
+﻿@model Nop.Plugin.Widgets.Product_Msg.Models.PublicInfoModel
+
+@{
+
+    var text = ViewData["text"]?.ToString() ?? "";
+
+
+    /*** 2019-08-09-task2 ***/
+    if (!string.IsNullOrEmpty(text))
+    {
+        <div>
+            @text ddddddddd
+        </div>
+    }
+
+}
+
+

@@ -45,7 +45,7 @@ namespace Nop.Web.Areas.Admin.Models.Settings
         [NopResourceDisplayName("Admin.Configuration.Settings.ProductEditor.ProductTags")]
         public bool ProductTags { get; set; }
 
-        //*** 2019-08-01 ***
+        //*** 2019-08-01-task1 ***
         [NopResourceDisplayName("Admin.Configuration.Settings.ProductEditor.Author")]
         public bool Author { get; set; }
 

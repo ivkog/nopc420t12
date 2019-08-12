@@ -45,7 +45,7 @@ namespace Nop.Web.Models.Catalog
 
         public ProductType ProductType { get; set; }
 
-        //*** 2019-08-02 ***
+        //*** 2019-08-02-task1 ***
         public bool ShowAuthor { get; set; }
         public string Author { get; set; }
         //*** ***

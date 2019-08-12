@@ -1154,7 +1154,6 @@ namespace Nop.Web.Factories
         public virtual ProductDetailsModel PrepareProductDetailsModel(Product product,
             ShoppingCartItem updatecartitem = null, bool isAssociatedProduct = false)
         {
-            //*** 2019-08-02 *** DEBUG PrepareProductDetailsModel *** 
             if (product == null)
                 throw new ArgumentNullException(nameof(product));
 
@@ -1170,10 +1169,10 @@ namespace Nop.Web.Factories
                 MetaTitle = _localizationService.GetLocalized(product, x => x.MetaTitle),
                 SeName = _urlRecordService.GetSeName(product),
                 ProductType = product.ProductType,
-                //*** 2019-08-02 ***
+                //*** 2019-08-02-task1 ***
                 ShowAuthor = _catalogSettings.ShowAuthorOnProductDetailsPage,
                 Author = product.Author,
-                //*** ***
+                //*** 
                 ShowSku = _catalogSettings.ShowSkuOnProductDetailsPage,
                 Sku = product.Sku,
                 ShowManufacturerPartNumber = _catalogSettings.ShowManufacturerPartNumber,

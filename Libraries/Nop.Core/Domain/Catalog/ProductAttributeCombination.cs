@@ -31,7 +31,7 @@
         public string Sku { get; set; }
 
 
-        //*** 2019-08-01
+        //*** 2019-08-01-task1
         /// <summary>
         /// Gets or sets the Author
         /// </summary>

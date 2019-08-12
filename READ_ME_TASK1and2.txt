@@ -3,10 +3,13 @@
 CHANGE LOG
 /****************************************/
 (Common)
+- tbds - glej dol (tbds) !
+- oznaka task2 dopolnitev: 2019-08-04-task2, serach "-task2"
 - script change - search 2019-08-dd
 - work: analog Product.AllowCustomerReviews, ManufacturerPartNumber
 - id's: github ivkog karnekaj001
 - task 2 - new widget plugin (IWidgetPlugin)
+    - lokacija: ? productdetails_after_pictures
     - https: //dzone.com/articles/what-are-nopcommerce-widgets-and-how-to-create-one
     - https: //www.nopcommerce.com/boards/t/48390/new-widget-zone-on-plugin-install.aspx
     - http: //docs.nopcommerce.com/display/en/Widgets
@@ -15,8 +18,42 @@ CHANGE LOG
 
 ------------
 (future ...)
-(2019-08-04 18:00 note doma)
+(2019-08-12) (SL 07-22 ---V DELU---)
+- ...
+- èistim ...
+- najprej naredim kopijo dir
+(2019-08-11) (note 10-07)
+(2019-08-09) (sl 15-22 final)
+- what: 
+- nopc420---task1and2---master--- - try restore - Copy cca deluje po defektu, sedaj postaviti task 2, potrebno sync spremmeb in zliti na master
+- usposobi task2
+- 
+- ---
+-
+
+(2019-08-08) (doma 20-00)
+- what: nopc420---task1and2---master--- - try restore - Copy cca deluje po defektu, sedaj postaviti task 2, potrebno sync spremmeb in zliti na master
+- ---
+- stanje: 2019-08-07 07-07 cca deluje, 
+- narejena kopija od nopc420---task1and2---master--- - try restore - Copy
+    - v nopc420---task1and2---master--- - try restore - Copy---2019-08-07 task 2 defekt cca ok---
+- ---
+- 2019-08-07-task2
+- prilagajam nivoslider klon Product_Msg na Task2
+- lokacija: ? _ProductBox.cshtml, nabor lokacij : PublicWidgetZones.cs, lokacijo se implementira: Product_MsgPlugin.cs
+- product view: ProductTemplate.Simple.cshtml
+- uporabim lokacijo ? ProductDetailsEssentialTop ?
+- ---
+(2019-08-06)  
+- what: trying to restore from dll defekt, since 2019-08-04 18:05 note doma, sync with (2019-08-05 11:36 SLPC )
+- ---
+- 
+(2019-08-04 18:05 note doma / 2019-08-04-task2)
 - TBD
+- task 2 navodila - add project
+    - Nop.Plugin.Widgets.ProductMsg
+- start Task 2
+    - po navodilih: https: //dzone.com/articles/what-are-nopcommerce-widgets-and-how-to-create-one
 - ProductDetailsModel
 - Zgledi:
     - sku
@@ -28,6 +65,7 @@ CHANGE LOG
 -----------
 (TBDS)
 - ...
+- dataSlide1
 - @T("Products.Author") LocalizedString
 - VRNI KAR UMIK IZ _CreateOrUpdate.Info.cshtml, glej P001
 

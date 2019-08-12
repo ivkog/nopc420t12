@@ -6140,7 +6140,7 @@ namespace Nop.Services.Installation
                 AllowViewUnpublishedProductPage = true,
                 DisplayDiscontinuedMessageForUnpublishedProducts = true,
                 PublishBackProductWhenCancellingOrders = false,
-                //*** 2019-08-02 
+                //*** 2019-08-02-task1
                 ShowAuthorOnProductDetailsPage = true,
                 ShowAuthorOnCatalogPages = false,
                 //***

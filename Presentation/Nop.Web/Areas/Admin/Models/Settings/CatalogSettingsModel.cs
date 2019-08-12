@@ -34,7 +34,7 @@ namespace Nop.Web.Areas.Admin.Models.Settings
         public bool DisplayDiscontinuedMessageForUnpublishedProducts { get; set; }
         public bool DisplayDiscontinuedMessageForUnpublishedProducts_OverrideForStore { get; set; }
 
-        //*** 2019-08-02 *** 
+        //*** 2019-08-02-task1 *** 
         [NopResourceDisplayName("Admin.Configuration.Settings.Catalog.ShowAuthorOnProductDetailsPage")]
         public bool ShowAuthorOnProductDetailsPage { get; set; }
         public bool ShowAuthorOnProductDetailsPage_OverrideForStore { get; set; }
@@ -53,7 +53,7 @@ namespace Nop.Web.Areas.Admin.Models.Settings
         public bool ShowSkuOnCatalogPages { get; set; }
         public bool ShowSkuOnCatalogPages_OverrideForStore { get; set; }
 
-        //*** 2019-08-01
+        //*** 2019-08-01-task1
         [NopResourceDisplayName("Admin.Configuration.Settings.Catalog.ShowAuthor")]
         public bool ShowAuthor { get; set; }
         public bool ShowAuthor_OverrideForStore { get; set; }

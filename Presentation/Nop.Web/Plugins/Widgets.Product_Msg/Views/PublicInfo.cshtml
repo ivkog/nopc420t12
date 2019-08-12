@@ -1,0 +1,25 @@
+﻿@model Nop.Plugin.Widgets.Product_Msg.Models.PublicInfoModel
+@{
+    Layout = "";
+
+    Html.AddCssFileParts("~/Plugins/Widgets.Product_Msg/Content/product_msg/product-msg.css");
+    Html.AddCssFileParts("~/Plugins/Widgets.Product_Msg/Content/product_msg/themes/custom/custom.css");
+}
+
+
+<div class="slider-wrapper theme-custom">
+    <div id="product-msg" class="productMsg">
+        @{
+
+            var dataSlide1 = new ViewDataDictionary(ViewData)
+            {
+                { "text", Model.Text1}
+            };
+
+
+            @await Html.PartialAsync("~/Plugins/Widgets.Product_Msg/Views/_PublicInfo.ProductMsg.cshtml", dataSlide1)
+        }
+
+    </div>
+</div>
+

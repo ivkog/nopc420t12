@@ -1,17 +1,17 @@
 ﻿@model ProductDetailsModel
 @using Nop.Core.Domain.Catalog
-<!-- *** 2019-08-02 *** -->
+<!-- *** 2019-08-02-task1 *** -->
 <!-- *** 2019-08-02 *** DEBUG _Author.cshtml *** -->
 <div class="additional-details">
     @*Author*@
-    @if ((!string.IsNullOrWhiteSpace(Model.Author) && Model.ShowAuthor ))
+    @if ((!string.IsNullOrWhiteSpace(Model.Author) && Model.ShowAuthor))
     {
-    <div class="author" @(string.IsNullOrWhiteSpace(Model.Author) ? Html.Raw("style=\"display:none\"") : null)>
-        <span class="label">@T("Products.Author"):</span>
-        <span class="value" itemprop="sku" id="author-@Model.Id">@Model.Author</span>
-    </div>
+        <div class="author" @(string.IsNullOrWhiteSpace(Model.Author) ? Html.Raw("style=\"display:none\"") : null)>
+            <span class="label">@T("Products.Author"):</span>
+            <span class="value" itemprop="sku" id="author-@Model.Id">@Model.Author</span>
+        </div>
     }
 
- 
+
 
 </div>

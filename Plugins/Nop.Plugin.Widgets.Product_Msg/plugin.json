@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Product_Msg",
+  "SystemName": "Widgets.Product_Msg",
+  "Version": "1.34",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "Ivko Gregori",
+  "DisplayOrder": 2,
+  "FileName": "Nop.Plugin.Widgets.Product_Msg.dll",
+  "Description": "This plugin allows you to add message to product details "
+}

@@ -1004,7 +1004,7 @@ namespace Nop.Web.Areas.Admin.Factories
             {
                 model.AllowViewUnpublishedProductPage_OverrideForStore = _settingService.SettingExists(catalogSettings, x => x.AllowViewUnpublishedProductPage, storeId);
                 model.DisplayDiscontinuedMessageForUnpublishedProducts_OverrideForStore = _settingService.SettingExists(catalogSettings, x => x.DisplayDiscontinuedMessageForUnpublishedProducts, storeId);
-                //*** 2019-08-02
+                //*** 2019-08-02-task1
                 model.ShowAuthorOnProductDetailsPage_OverrideForStore = _settingService.SettingExists(catalogSettings, x => x.ShowAuthorOnProductDetailsPage, storeId);
                 model.ShowAuthorOnCatalogPages_OverrideForStore = _settingService.SettingExists(catalogSettings, x => x.ShowAuthorOnCatalogPages, storeId);
                 //***

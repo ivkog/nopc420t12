@@ -1,0 +1,72 @@
+﻿@model Nop.Plugin.Widgets.Product_Msg.Models.PublicInfoModel
+
+@{
+    var pictureUrl = ViewData["pictureUrl"]?.ToString() ?? "";
+    var link = ViewData["link"]?.ToString() ?? "";
+    var dataTransition = ViewData["dataTransition"]?.ToString() ?? "";
+    var text = ViewData["text"]?.ToString() ?? "";
+    var alttext = ViewData["alttext"]?.ToString() ?? "";
+
+
+    /*** 2019-08-08-task2 ***/
+    <div class="product-name">
+        <h1 itemprop="name">
+            @text  
+        </h1>
+    </div>
+    /***/
+
+
+    //*** 2019-08-07-task2
+    //*** ADD:
+    /*** 2019-08-08-task2
+    if (!string.IsNullOrEmpty(text))
+    {
+        <div class="product-name">
+            <h1 itemprop="name">
+                @text " !!!!!!!!!!!!!!! _PublicInfo.SliderLine.cshtml !!!!!!!!!!!!!!!!! "
+            </h1>
+        </div>
+    }
+    ***/
+
+
+    if (!string.IsNullOrEmpty(pictureUrl))
+    {
+        if (!string.IsNullOrEmpty(link))
+        {
+            /***
+            <a href="@link" aria-label="@alttext">
+                <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" />
+            </a>
+            ***/
+
+            //*** 2019-08-07-task2
+            //*** NEW:
+
+            /***
+            <div class="product-name">
+                <h1 itemprop="name">
+                    ---afna---text "ProductTemplate.Simple.cshtml - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                </h1>
+            </div>
+
+            /*** ORIGINAL
+            <a href="@link" aria-label="@alttext">
+                <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" />
+            </a>
+            ***/
+
+        }
+        else
+        {
+            //*** 2019-08-07-task2
+            /*** DISABLED:
+
+            <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" />
+            <img src="@pictureUrl" data-thumb="@pictureUrl" data-transition="@dataTransition" alt="@alttext" title="@text" />
+            ***/
+        }
+    }
+}
+

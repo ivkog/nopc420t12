@@ -29,6 +29,8 @@
     <Content Update="App_Data\DataProtectionKeys\*.xml" CopyToPublishDirectory="Never" />
 
     <Compile Remove="Plugins\**" />
+
+    <Content Remove="Plugins\Widgets.ProductMsg\**" />
     <EmbeddedResource Remove="Plugins\**" />
     <None Remove="Plugins\**" />
 
@@ -43,14 +45,15 @@
     <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy %282%29.Info.cshtml" />
     <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy---DEFEKT OUT---.Info.cshtml" />
     <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy.Info.cshtml" />
+    <Content Remove="Plugins\Widgets.ProductMsg\logo.jpg" />
+    <Content Remove="Plugins\Widgets.ProductMsg\Nop.Plugin.Widgets.ProductMsg.dll" />
+    <Content Remove="Plugins\Widgets.ProductMsg\Nop.Plugin.Widgets.ProductMsg.pdb" />
+    <Content Remove="Plugins\Widgets.ProductMsg\Scripts\jquery.product.msg.js" />
+    <Content Remove="Plugins\Widgets.Product_Msg\Nop.Plugin.Widgets.Product_Msg.dll" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Plugins\" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target.

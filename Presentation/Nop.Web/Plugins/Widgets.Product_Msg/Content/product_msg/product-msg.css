@@ -1,0 +1,11 @@
+
+/*** 2019-08-09-task2 ***/
+
+
+.productMsg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font: normal 11px Arial, Helvetica, sans-serif; 
+}

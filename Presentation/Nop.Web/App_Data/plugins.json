@@ -14,10 +14,22 @@
     "Tax.Avalara",
     "Tax.FixedOrByCountryStateZip",
     "Widgets.GoogleAnalytics",
+    "ExternalAuth.Facebook",
     "Widgets.NivoSlider",
-    "ExternalAuth.Facebook"
+    "Widgets.Product_Msg"
   ],
   "PluginNamesToUninstall": [],
-  "PluginNamesToDelete": [],
-  "PluginNamesToInstall": []
+  "PluginNamesToDelete": [
+    "Widgets.ProductMsg"
+  ],
+  "PluginNamesToInstall": [
+    {
+      "Item1": "Widgets.ProductMsg",
+      "Item2": "e5384b37-1be6-46ee-b265-98b414ca9b3c"
+    },
+    {
+      "Item1": "Widgets.ProductMsg",
+      "Item2": "e5384b37-1be6-46ee-b265-98b414ca9b3c"
+    }
+  ]
 }

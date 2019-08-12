@@ -177,7 +177,7 @@ namespace Nop.Web.Controllers
             _customerActivityService.InsertActivity("PublicStore.ViewProduct",
                 string.Format(_localizationService.GetResource("ActivityLog.PublicStore.ViewProduct"), product.Name), product);
 
-            //*** 2019-08-02 *** DEBUG ProductController *** 
+            //*** 2019-08-02-task1 *** DEBUG ProductController *** 
             //model
             var model = _productModelFactory.PrepareProductDetailsModel(product, updatecartitem, false);
             //template

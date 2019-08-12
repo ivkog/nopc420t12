@@ -130,7 +130,7 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.Sku")]
         public string Sku { get; set; }
 
-        //*** 2019-08-01
+        //*** 2019-08-01-task1
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
         public string Author { get; set; }
         //***

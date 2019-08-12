@@ -63,7 +63,7 @@ namespace Nop.Core.Domain.Catalog
         public bool ProductTags { get; set; }
 
 
-        //*** 2019-08-01
+        //*** 2019-08-01-task1
         /// <summary>
         /// Gets or sets a value indicating whether Author field is shown
         /// </summary>
