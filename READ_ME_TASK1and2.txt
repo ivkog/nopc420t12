@@ -18,9 +18,10 @@ CHANGE LOG
 
 ------------
 (future ...)
-(2019-08-12) (SL 07-22 ---V DELU---)
+(2019-08-12) (SL 16-29 ---V DELU---)
 - ...
-- èistim ...
+- deploy na git
+- cistim ...
 - najprej naredim kopijo dir
 (2019-08-11) (note 10-07)
 (2019-08-09) (sl 15-22 final)
