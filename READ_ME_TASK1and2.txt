@@ -7,7 +7,7 @@ READ ME
 - code changes - serach : 2019-08-14-task1, 2019-08-14-task2
 - sql upgrades - see: \upgradescripts\4.20-tasks 1 and 2
 - ---
-- source code, see: https://github.com/ivkog/src
+- source code, see: https://github.com/ivkog/nopc420t12
 - deploy, demo, see azure: https://nopc420nw.azurewebsites.net (admin@yourStore.com pass: a)
 
 
