@@ -24,7 +24,7 @@ namespace Nop.Data.Mapping.Catalog
             builder.Property(product => product.MetaKeywords).HasMaxLength(400);
             builder.Property(product => product.MetaTitle).HasMaxLength(400);
             builder.Property(product => product.Sku).HasMaxLength(400);
-            //*** 2019-08-01-task1
+            //*** 2019-08-14-task1
             builder.Property(product => product.Author).HasMaxLength(400);
             //***
             builder.Property(product => product.ManufacturerPartNumber).HasMaxLength(400);

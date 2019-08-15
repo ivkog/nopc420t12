@@ -92,7 +92,7 @@ namespace Nop.Services.Catalog
         /// <param name="productTagId">Product tag identifier; 0 to load all records</param>
         /// <param name="keywords">Keywords</param>
         /// <param name="searchDescriptions">A value indicating whether to search by a specified "keyword" in product descriptions</param>
-        /// <param name="searchAuthor"> //*** 2019-08-01-task1 </param>
+        /// <param name="searchAuthor"> //*** 2019-08-14-task1 </param>
         /// <param name="searchManufacturerPartNumber">A value indicating whether to search by a specified "keyword" in manufacturer part number</param>
         /// <param name="searchSku">A value indicating whether to search by a specified "keyword" in product SKU</param>
         /// <param name="searchProductTags">A value indicating whether to search by a specified "keyword" in product tags</param>
@@ -123,7 +123,7 @@ namespace Nop.Services.Catalog
             int productTagId = 0,
             string keywords = null,
             bool searchDescriptions = false,
-            //*** 2019-08-01-task1
+            //*** 2019-08-14-task1
             bool searchAuthor = true,
             //***
             bool searchManufacturerPartNumber = true,
@@ -156,7 +156,7 @@ namespace Nop.Services.Catalog
         /// <param name="productTagId">Product tag identifier; 0 to load all records</param>
         /// <param name="keywords">Keywords</param>
         /// <param name="searchDescriptions">A value indicating whether to search by a specified "keyword" in product descriptions</param>
-        /// <param name="searchAuthor"> //*** 2019-08-01-task1 </param>       
+        /// <param name="searchAuthor"> //*** 2019-08-14-task1 </param>       
         /// <param name="searchManufacturerPartNumber">A value indicating whether to search by a specified "keyword" in manufacturer part number</param>
         /// <param name="searchSku">A value indicating whether to search by a specified "keyword" in product SKU</param>
         /// <param name="searchProductTags">A value indicating whether to search by a specified "keyword" in product tags</param>
@@ -189,7 +189,7 @@ namespace Nop.Services.Catalog
             int productTagId = 0,
             string keywords = null,
             bool searchDescriptions = false,
-            //*** 2019-08-01-task1
+            //*** 2019-08-14-task1
             bool searchAuthor = true,
             //***
             bool searchManufacturerPartNumber = true,

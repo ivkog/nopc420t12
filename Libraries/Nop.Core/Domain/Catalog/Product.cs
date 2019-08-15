@@ -133,7 +133,7 @@ namespace Nop.Core.Domain.Catalog
         /// </summary>
         public string Sku { get; set; }
 
-        //*** 2019-08-01-task1
+        //*** 2019-08-14-task1
         /// <summary>
         /// Gets or sets the Author
         /// </summary>

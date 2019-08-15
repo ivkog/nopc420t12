@@ -1169,7 +1169,7 @@ namespace Nop.Web.Factories
                 MetaTitle = _localizationService.GetLocalized(product, x => x.MetaTitle),
                 SeName = _urlRecordService.GetSeName(product),
                 ProductType = product.ProductType,
-                //*** 2019-08-02-task1 ***
+                //*** 2019-08-14-task1 ***
                 ShowAuthor = _catalogSettings.ShowAuthorOnProductDetailsPage,
                 Author = product.Author,
                 //*** 

@@ -83,8 +83,10 @@ namespace Nop.Web.Framework.Infrastructure.Extensions
             var serviceProvider = engine.ConfigureServices(services, configuration, nopConfig);
 
             //further actions are performed only when the database is installed
+            /*** 2019-08-14 ***/
             if (!DataSettingsManager.DatabaseIsInstalled)
-                return serviceProvider;
+                return serviceProvider; 
+                /***/
 
             //initialize and start schedule tasks
             TaskManager.Instance.Initialize();

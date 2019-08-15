@@ -133,6 +133,8 @@ namespace Nop.Core.Data
                 if (!_databaseIsInstalled.HasValue)
                     _databaseIsInstalled = !string.IsNullOrEmpty(LoadSettings(reloadSettings: true)?.DataConnectionString);
 
+                //*** return 2019-08-14 *** _databaseIsInstalled.Value;
+                //*** return true;
                 return _databaseIsInstalled.Value;
             }
         }

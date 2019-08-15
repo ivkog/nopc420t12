@@ -316,7 +316,7 @@ namespace Nop.Web.Areas.Admin.Infrastructure.Mapper
                 .ForMember(model => model.ShowProductReviewsPerStore_OverrideForStore, options => options.Ignore())
                 .ForMember(model => model.ShowProductsFromSubcategories_OverrideForStore, options => options.Ignore())
                 .ForMember(model => model.ShowShareButton_OverrideForStore, options => options.Ignore())
-                //*** 2019-08-02-task1
+                //*** 2019-08-14-task1
                 .ForMember(model => model.ShowAuthorOnCatalogPages_OverrideForStore, options => options.Ignore())
                 .ForMember(model => model.ShowAuthorOnProductDetailsPage_OverrideForStore, options => options.Ignore())
                 //*** 

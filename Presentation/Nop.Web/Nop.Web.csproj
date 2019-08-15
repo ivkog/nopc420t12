@@ -42,14 +42,7 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
-    <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy %282%29.Info.cshtml" />
-    <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy---DEFEKT OUT---.Info.cshtml" />
-    <Content Remove="Areas\Admin\Views\Product\_CreateOrUpdate - Copy.Info.cshtml" />
-    <Content Remove="Plugins\Widgets.ProductMsg\logo.jpg" />
-    <Content Remove="Plugins\Widgets.ProductMsg\Nop.Plugin.Widgets.ProductMsg.dll" />
-    <Content Remove="Plugins\Widgets.ProductMsg\Nop.Plugin.Widgets.ProductMsg.pdb" />
-    <Content Remove="Plugins\Widgets.ProductMsg\Scripts\jquery.product.msg.js" />
-    <Content Remove="Plugins\Widgets.Product_Msg\Nop.Plugin.Widgets.Product_Msg.dll" />
+
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

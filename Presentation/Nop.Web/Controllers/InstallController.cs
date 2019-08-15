@@ -212,6 +212,9 @@ namespace Nop.Web.Controllers
         [HttpPost]
         public virtual IActionResult Index(InstallModel model)
         {
+            //*** 2019-08-14
+            //*** return RedirectToRoute("Homepage");
+
             if (DataSettingsManager.DatabaseIsInstalled)
                 return RedirectToRoute("Homepage");
 

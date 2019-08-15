@@ -2920,7 +2920,7 @@
     <Value>Select inventory method. There are three methods: Don’t track inventory, Track inventory and Track inventory by attributes. You should use Track inventory by attributes when the product has different combinations of these attributes and then manage inventory for these combinations.</Value>
   </LocaleResource>
   
-  <!-- *** 2019-08-02-task1 *** -->  
+  <!-- *** 2019-08-14-task1 *** -->  
   <LocaleResource Name="Admin.Catalog.Products.Fields.Author">
     <Value>Author</Value>
   </LocaleResource>
@@ -3452,7 +3452,7 @@
     <Value>Enter global trade item number (GTIN). These identifiers include UPC (in North America), EAN (in Europe), JAN (in Japan), and ISBN (for books).</Value>
   </LocaleResource>
   
-  <!-- *** 2019-08-02-task1 *** -->  
+  <!-- *** 2019-08-14-task1 *** -->  
   <LocaleResource Name="Admin.Catalog.Products.ProductAttributes.AttributeCombinations.Fields.Author">
     <Value>Author</Value>
   </LocaleResource>
@@ -5655,7 +5655,7 @@
     <Value>Determines whether the link to all results should be displayed in the autocomplete search box. Displayed if the number of items found is greater than the displayed quantity in the autocomplete box.</Value>
   </LocaleResource>
   
-  <!-- *** 2019-08-02-task1 *** -->  
+  <!-- *** 2019-08-14-task1 *** -->  
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowAuthor">
     <Value>Show Author</Value>
   </LocaleResource>
@@ -7765,7 +7765,7 @@
     <Value>Low stock activity</Value>
   </LocaleResource>
   
-  <!-- *** 2019-08-02-task1 *** -->  
+  <!-- *** 2019-08-14-task1 *** -->  
   <LocaleResource Name="Admin.Configuration.Settings.ProductEditor.Author">
     <Value>Author</Value>
   </LocaleResource>
@@ -17251,7 +17251,7 @@
     <Value>Start date</Value>
   </LocaleResource>
   
-  <!-- *** 2019-08-02-task1 *** -->  
+  <!-- *** 2019-08-14-task1 *** -->  
   <LocaleResource Name="Products.Author">
     <Value>Author</Value>
   </LocaleResource>

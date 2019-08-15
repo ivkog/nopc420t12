@@ -31,7 +31,7 @@ namespace Nop.Core.Domain.Catalog
         public bool PublishBackProductWhenCancellingOrders { get; set; }
 
 
-        //*** 2019-08-02-task1 ***
+        //*** 2019-08-14-task1 ***
         /// <summary>
         /// Gets or sets a value indicating whether to display product Author on the product details page
         /// </summary>
@@ -55,7 +55,7 @@ namespace Nop.Core.Domain.Catalog
         public bool ShowSkuOnCatalogPages { get; set; }
 
 
-        //*** 2019-08-01-task1
+        //*** 2019-08-14-task1
         /// <summary>
         /// Gets or sets a value Author of a product
         /// </summary>

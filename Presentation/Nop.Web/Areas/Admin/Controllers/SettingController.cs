@@ -560,13 +560,13 @@ namespace Nop.Web.Areas.Admin.Controllers
             //and loaded from database after each update
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.AllowViewUnpublishedProductPage, model.AllowViewUnpublishedProductPage_OverrideForStore, storeScope, false);
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.DisplayDiscontinuedMessageForUnpublishedProducts, model.DisplayDiscontinuedMessageForUnpublishedProducts_OverrideForStore, storeScope, false);
-            //*** 2019-08-02-task1
+            //*** 2019-08-14-task1
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowAuthorOnProductDetailsPage, model.ShowAuthorOnProductDetailsPage_OverrideForStore, storeScope, false);
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowAuthorOnCatalogPages, model.ShowAuthorOnCatalogPages_OverrideForStore, storeScope, false);
             //***
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowSkuOnProductDetailsPage, model.ShowSkuOnProductDetailsPage_OverrideForStore, storeScope, false);
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowSkuOnCatalogPages, model.ShowSkuOnCatalogPages_OverrideForStore, storeScope, false);
-            //*** 2019-08-01-task1
+            //*** 2019-08-14-task1
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowAuthor, model.ShowAuthor_OverrideForStore, storeScope, false);
             //***
             _settingService.SaveSettingOverridablePerStore(catalogSettings, x => x.ShowManufacturerPartNumber, model.ShowManufacturerPartNumber_OverrideForStore, storeScope, false);
